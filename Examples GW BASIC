@@ -13,3 +13,14 @@
 4+3-1
 7-1
 6
+### Example # 3
+10 LET A = 5
+20 LET B = 6
+30 LET C = A+B
+In thsi statement the variable A,B and C are assuming the value 5,6and the sum od A AND B i.e 11.
+### Example # 4
+Write a program to find the average of any 5 number
+10 INPUT A, B, C, D, E,
+20 LET AV = (A+B+C+D+E)/5
+30 PRINT "AVERAGE = " ; AV
+40 stop
