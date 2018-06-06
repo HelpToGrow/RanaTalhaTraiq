@@ -37,3 +37,29 @@ Write a program to find the average of any 5 number
 100..............
 110..............
 120 DATA 5, 9, 12.
+### Example # 6
+Question Write a program to find the average of the number 27,93,84,60,45 ?
+#Codes
+10 READ A+B+C+D+E
+20 LET TOTAL = A+B+C+D+E
+30 LET AVERAGE = TOTAL/5
+40 PRINT AVERAGE
+50 DATA 27, 93, 84, 60, 45
+### Example # 7
+Write a program to generate the number from one to indifinate
+10 LET A = 0
+20 LET A = A+2
+30 PRINT A
+40 GOTO 20
+### Example # 8
+10 LET A = 5
+20 LET B = 6
+30 LET C = (A+B)/2
+40 PRINT C
+50 STOP
+SAVE "AVERAGE.BAS"
+OK
+
+
+
+
